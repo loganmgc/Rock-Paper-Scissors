@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,18 +20,18 @@
                     <td><br /></td>
                 </tr>
                 <tr class="moveImage">
-                    <td id="yourMove"></td>
+                    <td id="playerMoveImage"></td>
                     <td><h1>VS</h1></td>
-                    <td id="oppenentsMove"></td>
+                    <td id="computerMoveImage"></td>
                 </tr>
             </table>
         </div>
         <div class="selection">
-            <button class="button" id="rock" value="0" onclick="MainGame('rock', '1')">Rock</button>
-            <button class="button" id="paper" value="1" onclick="MainGame('paper', '1')">Paper</button>
-            <button class="button" id="scissors" value="2" onclick="MainGame('scissors', '1')">Scissors</button>
+            <button class="button" id="rock" value="0" onclick="MainGame('rock')">Rock</button>
+            <button class="button" id="paper" value="1" onclick="MainGame('paper')">Paper</button>
+            <button class="button" id="scissors" value="2" onclick="MainGame('scissors')">Scissors</button>
         </div>
-        <div id="resutlmsg" hidden>
+        <div id="resutlmsg">
             <span id="result"></span>
         </div>
     </div>
